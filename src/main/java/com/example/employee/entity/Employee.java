@@ -26,7 +26,7 @@ public class Employee {
     @NotNull
     private Integer companyId;
 
-    public Employee(@NotNull String name, @NotNull Integer age, @NotNull String gender, @NotNull Integer salary, @NotNull Integer companyId) {
+    public Employee(@NotNull String name, @NotNull Integer age, @NotNull String gender, @NotNull Integer companyId, @NotNull Integer salary) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -34,7 +34,7 @@ public class Employee {
         this.companyId = companyId;
     }
 
-    public Employee(@NotNull Integer id, @NotNull String name, @NotNull Integer age, @NotNull String gender, @NotNull Integer salary, @NotNull Integer companyId) {
+    public Employee(@NotNull Integer id, @NotNull String name, @NotNull Integer age, @NotNull String gender, @NotNull Integer companyId, @NotNull Integer salary) {
         this.id = id;
         this.name = name;
         this.age = age;
